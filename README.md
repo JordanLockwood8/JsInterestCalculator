@@ -1,1 +1,1 @@
-# JavaInterestCalculator
+# JsInterestCalculator
