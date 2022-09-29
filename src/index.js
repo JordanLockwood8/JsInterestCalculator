@@ -7,3 +7,5 @@ console.log(a)
 
 const b = interest.compoundInterest(10, 20, 30, 5)
 console.log(b)
+
+const c = 123;
