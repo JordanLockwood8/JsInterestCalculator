@@ -7,9 +7,9 @@ export class Interest {
         return amount;
     }
     
-    compoundInterest(principle: number, time: number, rate: number, n: number) {
+    compoundInterest(principle: number, time: number, rate: number, compounded: number) {
         
-        const amount = principle * (Math.pow((1 + (rate / n)), (n * time)));
+        const amount = principle * (Math.pow((1 + (rate / compounded)), (compounded * time)));
         const interest = amount - principle;
         
         return interest;
